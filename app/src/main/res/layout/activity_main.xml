@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fitsSystemWindows="true">
+
+            <com.google.android.material.appbar.MaterialToolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize" />
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <com.prolificinteractive.materialcalendarview.MaterialCalendarView
+                    android:paddingBottom="@dimen/fab_margin"
+                    android:paddingStart="@dimen/fab_margin"
+                    android:paddingEnd="@dimen/fab_margin"
+                    android:id="@+id/calendarView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:mcv_dateTextAppearance="@style/CustomTextAppearance"
+                    app:mcv_firstDayOfWeek="sunday"
+                    app:mcv_headerTextAppearance="@style/CustomTextAppearance"
+                    app:mcv_monthLabels="@array/custom_months"
+                    app:mcv_selectionColor="@color/colorPic"
+                    app:mcv_weekDayLabels="@array/custom_weekdays"
+                    app:mcv_weekDayTextAppearance="@style/AnuTextAppearance" />
+
+                <TextView
+                    android:id="@+id/teks"
+                    android:textSize="16sp"
+                    android:gravity="center_horizontal"
+                    android:padding="@dimen/fab_margin"
+                    android:layout_margin="@dimen/fab_margin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+        </androidx.core.widget.NestedScrollView>
+
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

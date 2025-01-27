@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Kalender Indonesia</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="custom_weekdays">
+        <item>Sen</item>
+        <item>Sel</item>
+        <item>Rab</item>
+        <item>Kam</item>
+        <item><font fgcolor='#087f23'>Jum</font></item>
+        <item><font fgcolor='#0077c2'>Sab</font></item>
+        <item><font fgcolor='#E6384C'>Min</font></item>
+    </string-array>
+
+    <string-array name="custom_months">
+        <item>Januari</item>
+        <item>Februari</item>
+        <item>Maret</item>
+        <item>April</item>
+        <item>Mei</item>
+        <item>Juni</item>
+        <item>Juli</item>
+        <item>Agustus</item>
+        <item>September</item>
+        <item>Oktober</item>
+        <item>November</item>
+        <item>Desember</item>
+    </string-array>
+</resources>
