@@ -6,3 +6,5 @@ Aplikasi ini menggunakan API => [https://github.com/bachors/apiapi?tab=readme-ov
 << [DOWNLOAD](https://github.com/bachors/Android-Kalender-Indonesia/tree/master) >>
 
 <img src="https://raw.githubusercontent.com/bachors/Android-Kalender-Indonesia/refs/heads/main/kalender.gif"/>
+
+<< [DEMO APK](https://raw.githubusercontent.com/bachors/Android-Kalender-Indonesia/refs/heads/main/app-debug.apk) >>
